@@ -12,10 +12,10 @@
     spinner(0);
 
 
-    // Initiate the wowjs
-    new WOW().init();
+    // Initiate AOS
+    AOS.init();
 
-
+    
    // Back to top button
    $(window).scroll(function () {
     if ($(this).scrollTop() > 300) {
@@ -65,56 +65,31 @@
     });
 
 
-    // Testimonial carousel
-    $(".testimonial-carousel-1").owlCarousel({
+    // Testimonials carousel (uses the Swiper library)
+    const swiper = new Swiper('.testimonial-swiper', {
         loop: true,
-        dots: false,
-        margin: 25,
-        autoplay: true,
-        slideTransition: 'linear',
-        autoplayTimeout: 0,
-        autoplaySpeed: 10000,
-        autoplayHoverPause: false,
-        responsive: {
-            0:{
-                items:1
-            },
-            575:{
-                items:1
-            },
-            767:{
-                items:2
-            },
-            991:{
-                items:3
-            }
+        autoplay: {
+        delay: 5000,
+        },
+        pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+        },
+    navigation: {
+        nextEl: '.testimonial-swiper .swiper-button-next',
+        prevEl: '.testimonial-swiper .swiper-button-prev',
+    },
+        breakpoints: {
+        0: {
+            slidesPerView: 1,
+            spaceBetween: 20
+        },
+        768: {
+            slidesPerView: 1,
+            spaceBetween: 30
+        }
         }
     });
 
-    $(".testimonial-carousel-2").owlCarousel({
-        loop: true,
-        dots: false,
-        rtl: true,
-        margin: 25,
-        autoplay: true,
-        slideTransition: 'linear',
-        autoplayTimeout: 0,
-        autoplaySpeed: 10000,
-        autoplayHoverPause: false,
-        responsive: {
-            0:{
-                items:1
-            },
-            575:{
-                items:1
-            },
-            767:{
-                items:2
-            },
-            991:{
-                items:3
-            }
-        }
-    });
-
+ 
 })(jQuery);

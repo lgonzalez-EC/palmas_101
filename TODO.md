@@ -1,14 +1,7 @@
-# TODO: Cambiar enlace de bootstrap.min.css a CDN
+# TODO: Hacer funcional el testimonial en index.html
 
-- [ ] Cambiar en index.html
-- [ ] Cambiar en about.html
-- [x] Cambiar en service.html
-- [ ] Cambiar en team.html
-- [ ] Cambiar en testimonial.html
-- [ ] Cambiar en proximamente.html
-- [ ] Cambiar en book.html
-- [ ] Cambiar en menu.html
-- [ ] Cambiar en blog.html
-- [ ] Cambiar en contact.html
-- [x] Cambiar en event.html
-- [ ] Cambiar en 404.html
+- [x] Remover enlace duplicado a Swiper en index.html
+- [x] Adaptar diseño de testimonials en index.html para incluir imágenes, nombres, profesiones y estrellas
+- [x] Agregar un nuevo slide con testimonial real
+- [x] Verificar que el swiper funcione correctamente
+- [x] Actualizar TODO.md con progreso
