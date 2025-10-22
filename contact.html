@@ -9,18 +9,23 @@
         <meta content="" name="description">
 
         <!-- Google Web Fonts -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Playball&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Playball&display=swap"
+            rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+
 
         <!-- Icon Font Stylesheet -->
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,700,1,200&icon_names=home" />
 
         <!-- Libraries Stylesheet -->
         <link href="lib/animate/animate.min.css" rel="stylesheet">
         <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
         <!-- Customized Bootstrap Stylesheet -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -40,60 +45,43 @@
 
         <!-- Navbar start -->
         <section class="container-fluid nav-bar">
-            <div class="container">
-                <nav class="navbar navbar-light navbar-expand-lg py-2">
-                    <a href="index.html" class="navbar-brand">
-                        <img src="img/logo_palmas_101.webp" alt="" style="width: 70px; height: auto;">
-                    </a>
-                    <button class="navbar-toggler py-2 px-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-                        <span class="fas fa-bars text-primary"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarCollapse">
-                        <div class="navbar-nav mx-auto">
-                            <a href="index.html" class="nav-item nav-link active">Inicio</a>
-                            <a href="about.html" class="nav-item nav-link">Acerca de</a>
-                            <a href="service.html" class="nav-item nav-link">Servicios</a>
-                            <a href="menu.html" class="nav-item nav-link">Menú</a>
-                            <a href="contact.html" class="nav-item nav-link">Contacto</a>
-                        </div>
-                        <button class="btn-search btn btn-md-square me-1 rounded-circle d-none d-lg-inline-flex" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fa-brands fa-facebook-f"></i></button>
-                        <button class="btn-search btn btn-md-square me-1 rounded-circle d-none d-lg-inline-flex" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fa-brands fa-instagram"></i></button>
-                        <button class="btn-search btn btn-md-square me-1 rounded-circle d-none d-lg-inline-flex" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fa-brands fa-tiktok"></i></button>
+        <div class="container">
+            <nav class="navbar navbar-light navbar-expand-lg py-2">
+                <a href="index.html" class="navbar-brand">
+                    <img src="img/logo_palmas_101.webp" alt="" style="width: 70px; height: auto;">
+                </a>
+                <button class="navbar-toggler py-2 px-3" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarCollapse">
+                    <span class="fas fa-bars text-primary"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav mx-auto">
+                        <a href="index.html" class="nav-item nav-link">Inicio</a>
+                        <!-- <a href="about.html" class="nav-item nav-link">Acerca de</a> -->
+                        <a href="service.html" class="nav-item nav-link">Servicios</a>
+                        <a href="menu.html" class="nav-item nav-link">Menú</a>
+                        <a href="contact.html" class="nav-item nav-link active">Contacto</a>
                     </div>
-                </nav>
-            </div>
-        </section>
-        <!-- Navbar End -->
-
-
-        <!-- Modal Search Start -->
-        <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-fullscreen">
-                <div class="modal-content rounded-0">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Search by keyword</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body d-flex align-items-center">
-                        <div class="input-group w-75 mx-auto d-flex">
-                            <input type="search" class="form-control bg-transparent p-3" placeholder="keywords" aria-describedby="search-icon-1">
-                            <span id="search-icon-1" class="input-group-text p-3"><i class="fa fa-search"></i></span>
-                        </div>
-                    </div>
+                    <a class="btn btn-md-square me-1 rounded-circle d-none d-lg-inline-flex" href=""><i
+                            class="fa-brands fa-facebook-f"></i></a>
+                    <a class="btn btn-md-square me-1 rounded-circle d-none d-lg-inline-flex"
+                        href="https://www.instagram.com/palmas101restaurante"><i class="fa-brands fa-instagram"></i></a>
+                    <a class="btn btn-md-square me-1 rounded-circle d-none d-lg-inline-flex" href=""><i
+                            class="fa-brands fa-tiktok"></i></a>
                 </div>
-            </div>
+            </nav>
         </div>
-        <!-- Modal Search End -->
+    </section>
+        <!-- Navbar End -->
 
 
         <!-- Hero Start -->
         <div class="container-fluid bg-light py-6 my-6 mt-0">
             <div class="container text-center animated bounceInDown">
-                <h1 class="display-1 mb-4">Contact</h1>
+                <h1 class="display-1 mb-4">Contacto</h1>
                 <ol class="breadcrumb justify-content-center mb-0 animated bounceInDown">
-                    <li class="breadcrumb-item"><a href="#">Home</a></li>
-                    <li class="breadcrumb-item"><a href="#">Pages</a></li>
-                    <li class="breadcrumb-item text-dark" aria-current="page">Contact</li>
+                    <li class="breadcrumb-item"><a href="#">Inicio</a></li>
+                    <li class="breadcrumb-item text-dark" aria-current="page">Contacto</li>
                 </ol>
             </div>
         </div>
@@ -106,16 +94,16 @@
                 <div class="p-5 bg-light rounded contact-form">
                     <div class="row g-4">
                         <div class="col-12">
-                            <small class="d-inline-block fw-bold text-dark text-uppercase bg-light border border-primary rounded-pill px-4 py-1 mb-3">Get in touch</small>
-                            <h1 class="display-5 mb-0">Contact Us For Any Queries!</h1>
+                            <small class="d-inline-block fw-bold text-dark text-uppercase bg-light border border-primary rounded-pill px-4 py-1 mb-3">Contactanos</small>
+                            <h1 class="display-5 mb-0">Contactanos</h1>
                         </div>
                         <div class="col-md-6 col-lg-7">
-                            <p class="mb-4">The contact form is currently inactive. Get a functional and working contact form with Ajax & PHP in a few minutes. Just copy and paste the files, add a little code and you're done. <a href="https://htmlcodex.com/contact-form">Download Now</a>.</p>
+                            <p class="mb-4">Contactanos para saber más sobre nuestros servicios</p>
                             <form>
-                                <input type="text" class="w-100 form-control p-3 mb-4 border-primary bg-light" placeholder="Your Name">
-                                <input type="email" class="w-100 form-control p-3 mb-4 border-primary bg-light" placeholder="Enter Your Email">
-                                <textarea class="w-100 form-control mb-4 p-3 border-primary bg-light" rows="4" cols="10" placeholder="Your Message"></textarea>
-                                <button class="w-100 btn btn-primary form-control p-3 border-primary bg-primary rounded-pill" type="submit">Submit Now</button>
+                                <input type="text" class="w-100 form-control p-3 mb-4 border-primary bg-light" placeholder="Nombre">
+                                <input type="email" class="w-100 form-control p-3 mb-4 border-primary bg-light" placeholder="Correo Electrónico">
+                                <textarea class="w-100 form-control mb-4 p-3 border-primary bg-light" rows="4" cols="10" placeholder="Mensaje"></textarea>
+                                <button class="w-100 btn btn-primary form-control p-3 border-primary bg-primary rounded-pill" type="submit">Enviar</button>
                             </form>
                         </div>
                         <div class="col-md-6 col-lg-5">
@@ -123,24 +111,24 @@
                                 <div class="d-inline-flex w-100 border border-primary p-4 rounded mb-4">
                                     <i class="fas fa-map-marker-alt fa-2x text-primary me-4"></i>
                                     <div class="">
-                                        <h4>Address</h4>
-                                        <p>123 Street, New York, USA</p>
+                                        <h4>Ubicación</h4>
+                                        <p> Blvd. las Palmas 1102, Arbide, 37360 León de los Aldama, Gto</p>
                                     </div>
                                 </div>
                                 <div class="d-inline-flex w-100 border border-primary p-4 rounded mb-4">
                                     <i class="fas fa-envelope fa-2x text-primary me-4"></i>
                                     <div class="">
-                                        <h4>Mail Us</h4>
-                                        <p class="mb-2">info@example.com</p>
-                                        <p class="mb-0">support@example.com</p>
+                                        <h4>Correo</h4>
+                                        <p class="mb-2">contacto@palmas-101.com</p>
+                                        <p class="mb-0"> contacto@palmas-101.com</p>
                                     </div>
                                 </div>
                                 <div class="d-inline-flex w-100 border border-primary p-4 rounded">
                                     <i class="fa fa-phone-alt fa-2x text-primary me-4"></i>
                                     <div class="">
-                                        <h4>Telephone</h4>
-                                        <p class="mb-2">(+012) 3456 7890 123</p>
-                                        <p class="mb-0">(+704) 5555 0127 296</p>
+                                        <h4>Telefono</h4>
+                                        <p class="mb-2">(477) 123 4567</p>
+                                        <p class="mb-0">(577) 123 4567</p>
                                     </div>
                                 </div>
                             </div>
@@ -153,71 +141,87 @@
 
 
         <!-- Footer Start -->
-        <div class="container-fluid footer py-6 my-6 mb-0 bg-light wow bounceInUp" data-wow-delay="0.1s">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-3 col-md-6">
-                        <div class="footer-item">
-                            <h1 class="text-primary">Cater<span class="text-dark">Serv</span></h1>
-                            <p class="lh-lg mb-4">There cursus massa at urnaaculis estieSed aliquamellus vitae ultrs condmentum leo massamollis its estiegittis miristum.</p>
-                            <div class="footer-icon d-flex">
-                                <a class="btn btn-primary btn-sm-square me-2 rounded-circle" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-primary btn-sm-square me-2 rounded-circle" href=""><i class="fab fa-twitter"></i></a>
-                                <a href="#" class="btn btn-primary btn-sm-square me-2 rounded-circle"><i class="fab fa-instagram"></i></a>
-                                <a href="#" class="btn btn-primary btn-sm-square rounded-circle"><i class="fab fa-linkedin-in"></i></a>
-                            </div>
+        <footer class="container-fluid footer py-5 my-4 mb-0 wow bounceInUp" data-wow-delay="0.1s">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="footer-item">
+                        <img src="img/logo_palmas_101.webp" alt="Logo-palmas-101" style="width: 100px; height: auto;">
+                        <p class="lh-lg py-3">There cursus massa at urnaaculis estieSed aliquamellus vitae ultrs
+                            condmentum leo massamollis its estiegittis miristum.</p>
+                        <div class="footer-icon d-flex">
+                            <a class="btn btn-primary btn-sm-square me-2 rounded-circle" href=""><i
+                                    class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="btn btn-primary btn-sm-square me-2 rounded-circle"><i
+                                    class="fab fa-instagram"></i></a>
+                            <a href="#" class="btn btn-primary btn-sm-square rounded-circle"><i
+                                    class="fa-brands fa-tiktok"></i></a>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="footer-item">
-                            <h4 class="mb-4">Special Facilities</h4>
-                            <div class="d-flex flex-column align-items-start">
-                                <a class="text-body mb-3" href=""><i class="fa fa-check text-primary me-2"></i>Cheese Burger</a>
-                                <a class="text-body mb-3" href=""><i class="fa fa-check text-primary me-2"></i>Sandwich</a>
-                                <a class="text-body mb-3" href=""><i class="fa fa-check text-primary me-2"></i>Panner Burger</a>
-                                <a class="text-body mb-3" href=""><i class="fa fa-check text-primary me-2"></i>Special Sweets</a>
-                            </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="footer-item">
+                        <h4 class="mb-4">Contactanos</h4>
+                        <div class="d-flex flex-column align-items-start">
+                            <p><i class="fa fa-map-marker-alt text-primary me-2"></i> Blvd. las Palmas 1102, Arbide, 37360 León de los Aldama, Gto</p>
+                            <p><i class="fa fa-phone-alt text-primary me-2"></i> 477 116 0180</p>
+                            <p><i class="fas fa-envelope text-primary me-2"></i> contacto@palmas-101.com</p>
+                            <p><i class="fa fa-clock text-primary me-2"></i> 26/7 Hours Service</p>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="footer-item">
-                            <h4 class="mb-4">Contact Us</h4>
-                            <div class="d-flex flex-column align-items-start">
-                                <p><i class="fa fa-map-marker-alt text-primary me-2"></i> 123 Street, New York, USA</p>
-                                <p><i class="fa fa-phone-alt text-primary me-2"></i> (+012) 3456 7890 123</p>
-                                <p><i class="fas fa-envelope text-primary me-2"></i> info@example.com</p>
-                                <p><i class="fa fa-clock text-primary me-2"></i> 26/7 Hours Service</p>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="footer-item">
+                        <h4 class="mb-4">Instagram Feed</h4>
+                        <div class="row g-2">
+                            <div class="col-4">
+                                <a href="https://www.instagram.com/palmas101restaurante" target="_blank">
+                                    <img src="img/instagram-1.jpg"
+                                        class="img-fluid rounded-circle border border-primary p-2"
+                                        alt="Post de Instagram 1">
+                                </a>
                             </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="footer-item">
-                            <h4 class="mb-4">Social Gallery</h4>
-                            <div class="row g-2">
-                                <div class="col-4">
-                                     <img src="img/menu-01.jpg" class="img-fluid rounded-circle border border-primary p-2" alt="">
-                                </div>
-                                <div class="col-4">
-                                     <img src="img/menu-02.jpg" class="img-fluid rounded-circle border border-primary p-2" alt="">
-                                </div>
-                                <div class="col-4">
-                                     <img src="img/menu-03.jpg" class="img-fluid rounded-circle border border-primary p-2" alt="">
-                                </div>
-                                <div class="col-4">
-                                     <img src="img/menu-04.jpg" class="img-fluid rounded-circle border border-primary p-2" alt="">
-                                </div>
-                                <div class="col-4">
-                                     <img src="img/menu-05.jpg" class="img-fluid rounded-circle border border-primary p-2" alt="">
-                                </div>
-                                <div class="col-4">
-                                     <img src="img/menu-06.jpg" class="img-fluid rounded-circle border border-primary p-2" alt="">
-                                </div>
+                            <div class="col-4">
+                                <a href="https://www.instagram.com/palmas101restaurante" target="_blank">
+                                    <img src="img/instagram-2.jpg"
+                                        class="img-fluid rounded-circle border border-primary p-2"
+                                        alt="Post de Instagram 2">
+                                </a>
+                            </div>
+                            <div class="col-4">
+                                <a href="https://www.instagram.com/palmas101restaurante" target="_blank">
+                                    <img src="img/instagram-3.jpg"
+                                        class="img-fluid rounded-circle border border-primary p-2"
+                                        alt="Post de Instagram 3">
+                                </a>
+                            </div>
+                            <div class="col-4">
+                                <a href="https://www.instagram.com/palmas101restaurante" target="_blank">
+                                    <img src="img/instagram-4.jpg"
+                                        class="img-fluid rounded-circle border border-primary p-2"
+                                        alt="Post de Instagram 4">
+                                </a>
+                            </div>
+                            <div class="col-4">
+                                <a href="https://www.instagram.com/palmas101restaurante" target="_blank">
+                                    <img src="img/instagram-5.jpg"
+                                        class="img-fluid rounded-circle border border-primary p-2"
+                                        alt="Post de Instagram 5">
+                                </a>
+                            </div>
+                            <div class="col-4">
+                                <a href="https://www.instagram.com/palmas101restaurante" target="_blank">
+                                    <img src="img/instagram-6.jpg"
+                                        class="img-fluid rounded-circle border border-primary p-2"
+                                        alt="Post de Instagram 6">
+                                </a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    </footer>
         <!-- Footer End -->
 
 

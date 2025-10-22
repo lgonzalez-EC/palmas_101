@@ -355,12 +355,20 @@ small, .border {
     background: #FBC88B;
 }
 
+.menu a {
+    color: #000000;
+    text-decoration: none;
+    border-bottom: none;
+}
+
 .menu .nav-item a.active {
-    background: var(--bs-primary) !important;
+    background:  #EB9D87 !important;
+    color: #fff;
 }
 
 .menu .menu-item .border-bottom {
     border-bottom-style: dashed !important;
+
 }
 /*** Menu End ***/
 
