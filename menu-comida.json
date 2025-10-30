@@ -1,0 +1,75 @@
+[
+  {
+    "nombre": "Tacos al Pastor",
+    "precio": 95,
+    "descripcion": "Tacos de cerdo marinado con piña, cebolla y cilantro.",
+    "variantes": [
+      {"nombre": "Extra piña", "precio_adicional": 5},
+      {"nombre": "Sin cebolla", "precio_adicional": 0}
+    ]
+  },
+  {
+    "nombre": "Enchiladas Rojas",
+    "precio": 100,
+    "descripcion": "Enchiladas rellenas de pollo con salsa roja y queso.",
+    "variantes": [
+      {"nombre": "Con carne", "precio_adicional": 15}
+    ]
+  },
+  {
+    "nombre": "Pozole",
+    "precio": 110,
+    "descripcion": "Sopa de maíz con carne de cerdo, lechuga y limón.",
+    "variantes": []
+  },
+  {
+    "nombre": "Fajitas de Pollo",
+    "precio": 120,
+    "descripcion": "Pollo salteado con pimientos, cebolla y tortillas.",
+    "variantes": [
+      {"nombre": "Con camarones", "precio_adicional": 25}
+    ]
+  },
+  {
+    "nombre": "Tamales de Elote",
+    "precio": 85,
+    "descripcion": "Tamales dulces de elote con crema y queso.",
+    "variantes": []
+  },
+  {
+    "nombre": "Quesadillas de Queso",
+    "precio": 80,
+    "descripcion": "Tortillas de maíz con queso fundido y salsa.",
+    "variantes": [
+      {"nombre": "Con pollo", "precio_adicional": 15}
+    ]
+  },
+  {
+    "nombre": "Carnitas",
+    "precio": 130,
+    "descripcion": "Carne de cerdo deshebrada con tortillas y salsa verde.",
+    "variantes": [
+      {"nombre": "Con guacamole", "precio_adicional": 10}
+    ]
+  },
+  {
+    "nombre": "Mole Poblano",
+    "precio": 140,
+    "descripcion": "Pollo en salsa de mole con arroz y frijoles.",
+    "variantes": []
+  },
+  {
+    "nombre": "Sopes",
+    "precio": 90,
+    "descripcion": "Tortillas gruesas con frijoles, queso y carne.",
+    "variantes": [
+      {"nombre": "Con chorizo", "precio_adicional": 12}
+    ]
+  },
+  {
+    "nombre": "Chiles Rellenos",
+    "precio": 115,
+    "descripcion": "Chiles poblanos rellenos de queso y carne, capeados.",
+    "variantes": []
+  }
+]

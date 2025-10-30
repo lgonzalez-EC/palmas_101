@@ -1,0 +1,72 @@
+[
+  {
+    "nombre": "Flan Napolitano",
+    "precio": 50,
+    "descripcion": "Flan cremoso con caramelo y nueces.",
+    "variantes": []
+  },
+  {
+    "nombre": "Churros con Chocolate",
+    "precio": 45,
+    "descripcion": "Churros fritos con salsa de chocolate caliente.",
+    "variantes": [
+      {"nombre": "Con cajeta", "precio_adicional": 5}
+    ]
+  },
+  {
+    "nombre": "Tres Leches",
+    "precio": 55,
+    "descripcion": "Pastel de tres leches con fresas.",
+    "variantes": []
+  },
+  {
+    "nombre": "Gelatina de Frutas",
+    "precio": 40,
+    "descripcion": "Gelatina con frutas tropicales.",
+    "variantes": [
+      {"nombre": "Con crema", "precio_adicional": 8}
+    ]
+  },
+  {
+    "nombre": "Arroz con Leche",
+    "precio": 48,
+    "descripcion": "Arroz con leche con canela y pasas.",
+    "variantes": []
+  },
+  {
+    "nombre": "Pay de Limón",
+    "precio": 52,
+    "descripcion": "Pay de limón con merengue.",
+    "variantes": [
+      {"nombre": "Con nueces", "precio_adicional": 6}
+    ]
+  },
+  {
+    "nombre": "Helado de Vainilla",
+    "precio": 35,
+    "descripcion": "Helado artesanal de vainilla.",
+    "variantes": [
+      {"nombre": "Con chocolate", "precio_adicional": 10}
+    ]
+  },
+  {
+    "nombre": "Capirotada",
+    "precio": 60,
+    "descripcion": "Postre de pan con frutas y queso.",
+    "variantes": []
+  },
+  {
+    "nombre": "Buñuelos",
+    "precio": 42,
+    "descripcion": "Buñuelos fritos con azúcar y canela.",
+    "variantes": [
+      {"nombre": "Con miel", "precio_adicional": 5}
+    ]
+  },
+  {
+    "nombre": "Tarta de Manzana",
+    "precio": 58,
+    "descripcion": "Tarta de manzana con canela.",
+    "variantes": []
+  }
+]

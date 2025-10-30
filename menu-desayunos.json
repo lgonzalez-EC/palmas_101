@@ -1,0 +1,33 @@
+[
+  {
+    "nombre": "Amor a primer mollete",
+    "precio": 85,
+    "descripcion": "Bolillo cortado por la mitad untado con frijoles de la casa con queso manchego.",
+    "variantes": [
+      {"nombre": "Tocino", "precio_adicional": 85},
+      {"nombre": "Jamón", "precio_adicional": 85}
+    ]
+  },
+  {
+    "nombre": "El arte enchilado",
+    "precio": 80,
+    "descripcion": "",
+    "variantes": [
+        {"nombre": "Enfrijoladas", "precio_adicional": 95},
+        {"nombre": "Enchiladas suizas", "precio_adicional": 95},
+        {"nombre": "Encacahuatadas", "precio_adicional": 95},
+        {"nombre": "Enmoladas", "precio_adicional": 95},
+        {"nombre": "Enchiladas 101", "precio_adicional": 95}
+    ]
+  },
+  {
+    "nombre": "La Chilaquileada",
+    "precio": 80,
+    "descripcion": "Totopos de maíz bañados en la salsa de tu elección.",
+    "variantes": [
+      {"nombre": "Pollo", "precio_adicional": 95},
+      {"nombre": "Huevo", "precio_adicional": 95},
+      {"nombre": "Beef steak de res", "precio_adicional": 125}
+    ]
+  }
+]
