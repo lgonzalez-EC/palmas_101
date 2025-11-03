@@ -9,15 +9,11 @@
     ]
   },
   {
-    "nombre": "El arte enchilado",
-    "precio": 80,
-    "descripcion": "",
+    "nombre": "Tentación Omellett",
+    "precio": 115,
+    "descripcion": "Bañado en salsa de tu elección relleno de 2 ingredientes de tu preferencia acompañado de frijoles de la casa.",
     "variantes": [
-        {"nombre": "Enfrijoladas", "precio_adicional": 95},
-        {"nombre": "Enchiladas suizas", "precio_adicional": 95},
-        {"nombre": "Encacahuatadas", "precio_adicional": 95},
-        {"nombre": "Enmoladas", "precio_adicional": 95},
-        {"nombre": "Enchiladas 101", "precio_adicional": 95}
+        
     ]
   },
   {
@@ -28,6 +24,36 @@
       {"nombre": "Pollo", "precio_adicional": 95},
       {"nombre": "Huevo", "precio_adicional": 95},
       {"nombre": "Beef steak de res", "precio_adicional": 125}
+    ]
+  },
+  {
+    "nombre": "La torre dulce",
+    "precio": 95,
+    "descripcion": "Orden de 3 hotcakes con frutos rojos y mermelada de fresa o miel maple.",
+    "variantes": [
+    ]
+  },
+  {
+    "nombre": "Fruta del día",
+    "precio": 80,
+    "descripcion": "Papaya, sandía y melón. Topppings: miel, granola, yogurth y quinoa. ",
+    "variantes": [
+    ]
+  },
+  {
+    "nombre": "Croissant",
+    "precio": "--",
+    "descripcion": "Delicioso pan de mantequilla con queso, ensalada y proteína de tu preferencia.",
+    "variantes": [
+      {"nombre": "Jamón de pavo con queso", "precio_adicional": 85},
+      {"nombre": "Jamón serrano con queso", "precio_adicional": 110}
+    ]
+  },
+  {
+    "nombre": "Pan del día ",
+    "precio": 35,
+    "descripcion": "Pregunta por nuestro pan del día",
+    "variantes": [
     ]
   }
 ]
