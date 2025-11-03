@@ -191,7 +191,8 @@ small, .border {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-
+    height: 45rem;
+    padding: 100px 0;
 
 }
 

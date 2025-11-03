@@ -1,75 +1,67 @@
 [
   {
-    "nombre": "Tacos al Pastor",
+    "nombre": "Crema de 4 quesos",
+    "precio": 120,
+    "descripcion": "Servida en una hogaza de pan, mezcla de quesos mozzarella, manchego, gouda, y provolone ahumnado condimentado con nuez moscada, sal y pimienta.",
+    "variantes": [
+
+    ]
+  },
+  {
+    "nombre": "Crema de champiñones",
     "precio": 95,
-    "descripcion": "Tacos de cerdo marinado con piña, cebolla y cilantro.",
+    "descripcion": "Combinación de la riqueza de la crema de champiñones con la textura crujiente de la hogaza de masa madre.",
     "variantes": [
-      {"nombre": "Extra piña", "precio_adicional": 5},
-      {"nombre": "Sin cebolla", "precio_adicional": 0}
     ]
   },
   {
-    "nombre": "Enchiladas Rojas",
-    "precio": 100,
-    "descripcion": "Enchiladas rellenas de pollo con salsa roja y queso.",
-    "variantes": [
-      {"nombre": "Con carne", "precio_adicional": 15}
-    ]
-  },
-  {
-    "nombre": "Pozole",
-    "precio": 110,
-    "descripcion": "Sopa de maíz con carne de cerdo, lechuga y limón.",
+    "nombre": "Crema de chicharrón",
+    "precio": 120,
+    "descripcion": "Delicioso chicharrón combinado con una rica crema servido en una hogaza crujiente de masa madre.",
     "variantes": []
   },
   {
-    "nombre": "Fajitas de Pollo",
-    "precio": 120,
-    "descripcion": "Pollo salteado con pimientos, cebolla y tortillas.",
+    "nombre": "Pan con alma de queso",
+    "precio": 115,
+    "descripcion": "Hogaza con masa de madre relleno de queso fundido. A escoger acompañamiento de jamón, tocino, champiñones o espinacas.",
     "variantes": [
       {"nombre": "Con camarones", "precio_adicional": 25}
     ]
   },
   {
-    "nombre": "Tamales de Elote",
-    "precio": 85,
-    "descripcion": "Tamales dulces de elote con crema y queso.",
+    "nombre": "Rib eye con pasión",
+    "precio": 190,
+    "descripcion": "Con base de crema de papa acompañado de ejotes salteados y zanahorias salpimentados.",
     "variantes": []
   },
   {
-    "nombre": "Quesadillas de Queso",
-    "precio": 80,
-    "descripcion": "Tortillas de maíz con queso fundido y salsa.",
+    "nombre": "Rib Eye Sombra y Fuego",
+    "precio": 195,
+    "descripcion": "Con costra de sal y pimienta acompañado de una rica ensalada de la casa aderezada con chimichurri argentina. ",
     "variantes": [
-      {"nombre": "Con pollo", "precio_adicional": 15}
     ]
   },
   {
-    "nombre": "Carnitas",
-    "precio": 130,
-    "descripcion": "Carne de cerdo deshebrada con tortillas y salsa verde.",
+    "nombre": "Pollo Italiano",
+    "precio": 195,
+    "descripcion": "Deliciosa pechuga de pollo con costra de queso parmesano acompañada de ensalada con aderezo de chipotle.",
     "variantes": [
-      {"nombre": "Con guacamole", "precio_adicional": 10}
     ]
   },
   {
-    "nombre": "Mole Poblano",
-    "precio": 140,
-    "descripcion": "Pollo en salsa de mole con arroz y frijoles.",
+    "nombre": "Pollo Bayou",
+    "precio": 150,
+    "descripcion": "Deliciosa pechuga de pollo sazonada con cajún a la plancha acompañado de papa paja. ",
     "variantes": []
   },
   {
-    "nombre": "Sopes",
-    "precio": 90,
-    "descripcion": "Tortillas gruesas con frijoles, queso y carne.",
+    "nombre": "Bocados de encanto",
+    "precio": 212,
+    "descripcion": "Pequeñas porciones de comida que se sirven en 6 piezas de pan de baguette con variedad de cocina mexicana y española. ",
     "variantes": [
-      {"nombre": "Con chorizo", "precio_adicional": 12}
+      {"nombre": "Tapas de aguacate", "precio_adicional": "--"},
+      {"nombre": "Tapas de champiñon al ajillo", "precio_adicional": "--"},
+      {"nombre": "Tapas de jamón serrano", "precio_adicional": "--"}
     ]
-  },
-  {
-    "nombre": "Chiles Rellenos",
-    "precio": 115,
-    "descripcion": "Chiles poblanos rellenos de queso y carne, capeados.",
-    "variantes": []
   }
 ]
