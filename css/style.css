@@ -191,8 +191,11 @@ small, .border {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 70vh;
+    height: 45rem;
+    padding: 100px 0;
+
 }
+
 
 
 /*** Events Start ***/
@@ -589,12 +592,28 @@ small, .border {
 }
 /*** Footer End ***/
 
+
+
+
 /* Mobile adjustments for header */
 @media (max-width: 768px) {
     .header-home {
         height: auto;
         padding-top: 3rem;
         padding-bottom: 3rem;
+    }
+}
+
+/* Tablet vertical adjustments */
+@media (max-width: 1024px) and (orientation: portrait) {
+    .header-home {
+        height: auto;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+    .about {
+        padding-top: 50px;
+        padding-bottom: 50px;
     }
 }
 
